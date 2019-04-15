@@ -1,0 +1,50 @@
+.pageCarousel
+{
+	background: url(https://picsum.photos/1200/1800);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.overlay
+{
+	background: #000;
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 2;
+}
+#myCarousel
+{
+	z-index: 3;
+}
+.pageCarousel p
+{
+	color: white;
+	font-size: 12px;
+}
+#myProduct
+{
+	background: url(http://hinhnenpowerpointdep.com/uploads/images/tong-hop-hinh-nen-powerpoint-mau-sang-de-nhin-nhat-1485510280-1.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: scroll;
+}
+.myBuy
+{
+	background-color: #EEE;
+}
+.myFooter
+{
+	position: relative;
+	z-index: 10;
+	color: white;
+	background-image: url("http://thuthuatphanmem.vn/uploads/2018/04/10/hinh-nen-mua-qua-khung-cua-kinh-dep_052338018.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
